@@ -1,0 +1,1378 @@
+[
+  {
+    "key": 1,
+    "mbtiNm": "INFP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 1
+      }
+    ]
+  },
+  {
+    "key": 2,
+    "mbtiNm": "ENFP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 1
+      }
+    ]
+  },
+  {
+    "key": 3,
+    "mbtiNm": "INFJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 1
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "mbtiNm": "ENFJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 1
+      }
+    ]
+  },
+  {
+    "key": 5,
+    "mbtiNm": "INTJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 2
+      }
+    ]
+  },
+  {
+    "key": 6,
+    "mbtiNm": "ENTJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 3
+      }
+    ]
+  },
+  {
+    "key": 7,
+    "mbtiNm": "INTP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 5
+      }
+    ]
+  },
+  {
+    "key": 8,
+    "mbtiNm": "ENTP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 0
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 2
+      }
+    ]
+  },
+  {
+    "key": 9,
+    "mbtiNm": "ISFP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 5
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "mbtiNm": "ESFP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  },
+  {
+    "key": 11,
+    "mbtiNm": "ISTP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 5
+      }
+    ]
+  },
+  {
+    "key": 12,
+    "mbtiNm": "ESTP",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  },
+  {
+    "key": 13,
+    "mbtiNm": "ISFJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  },
+  {
+    "key": 14,
+    "mbtiNm": "ESFJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  },
+  {
+    "key": 15,
+    "mbtiNm": "ISTJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  },
+  {
+    "key": 16,
+    "mbtiNm": "ESTJ",
+    "compatibility": [
+      {
+        "compareMbtiNm": "INFP",
+        "compareMbtiKey": 1,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFP",
+        "compareMbtiKey": 2,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INFJ",
+        "compareMbtiKey": 3,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "ENFJ",
+        "compareMbtiKey": 4,
+        "relationsValue": 1
+      },
+      {
+        "compareMbtiNm": "INTJ",
+        "compareMbtiKey": 5,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ENTJ",
+        "compareMbtiKey": 6,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "INTP",
+        "compareMbtiKey": 7,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ENTP",
+        "compareMbtiKey": 8,
+        "relationsValue": 2
+      },
+      {
+        "compareMbtiNm": "ISFP",
+        "compareMbtiKey": 9,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESFP",
+        "compareMbtiKey": 10,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISTP",
+        "compareMbtiKey": 11,
+        "relationsValue": 5
+      },
+      {
+        "compareMbtiNm": "ESTP",
+        "compareMbtiKey": 12,
+        "relationsValue": 3
+      },
+      {
+        "compareMbtiNm": "ISFJ",
+        "compareMbtiKey": 13,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESFJ",
+        "compareMbtiKey": 14,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ISTJ",
+        "compareMbtiKey": 15,
+        "relationsValue": 4
+      },
+      {
+        "compareMbtiNm": "ESTJ",
+        "compareMbtiKey": 16,
+        "relationsValue": 4
+      }
+    ]
+  }
+]
