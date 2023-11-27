@@ -15,7 +15,6 @@ const ImageCard = ({ title, description, imageSource }) => {
 
 const styles = StyleSheet.create({
   card: {
-    width: '47%',
     backgroundColor: '#fff',
     borderRadius: 8,
     shadowColor: '#000',
@@ -26,7 +25,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 3,
     elevation: 3,
-    margin: 5,
+    margin: 10,
   },
   image: {
     width: '100%',
