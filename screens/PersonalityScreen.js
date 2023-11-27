@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import ImageCard from '../components/ImageCard';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 function PersonalityScreen({ navigation }) {
   const mbtiPersonal = [
@@ -138,13 +139,16 @@ function PersonalityScreen({ navigation }) {
 
   return (
     <View>
-      <View>
+      <View style={styles.searchContainer}>
+        <Icon name='search' size={24} color='#618264'  style={styles.searchIcon}/>
         <TextInput
           style={styles.searchInput}
           placeholder='Search...'
           onChangeText={(text) => handleSearch(text)}
           onSubmitEditing={handleSearch}
           value={search}
+          maxLength={4}
+          selectionColor={'#618264'}
         />
       </View>
       {loading ? (
@@ -163,7 +167,10 @@ function PersonalityScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  searchInput: {
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 8,
     height: 40,
     backgroundColor: 'white',
     borderColor: '#618264',
@@ -171,6 +178,18 @@ const styles = StyleSheet.create({
     margin: 10,
     borderRadius: 10,
     padding: 10,
+  },
+  searchInput: {
+    flex: 1,
+    marginLeft: 8,
+    fontSize: 16,
+    color: '#333',
+  },
+  searchIcon: {
+    width: 24,
+    height: 24,
+    tintColor: '#618264',
+    marginLeft: 8,
   },
 });
 
