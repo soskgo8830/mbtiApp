@@ -52,21 +52,8 @@ function HomeScreen({ navigation }) {
               }}
             />
             <Button
-              title='MBTI 성격 유형'
+              title='MBTI별 특징'
               onPress={() => navigation.navigate('Personality')}
-              titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
-              buttonStyle={{
-                backgroundColor: '#618264',
-                borderRadius: 5,
-              }}
-              containerStyle={{
-                height: 50,
-                marginVertical: 5,
-              }}
-            />
-            <Button
-              title='MBTI 직업 추천'
-              onPress={() => navigation.navigate('Job')}
               titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
               buttonStyle={{
                 backgroundColor: '#618264',

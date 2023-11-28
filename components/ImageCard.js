@@ -1,14 +1,19 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const ImageCard = ({ title, description, imageSource }) => {
+const ImageCard = ({id, title, description, imageSource, onPressCallback }) => {
+  const handlePress = () => {
+    onPressCallback(id);
+  };
   return (
     <View style={styles.card}>
-      <Image source={imageSource} style={styles.image} />
-      <View style={styles.cardContent}>
-        <Text style={styles.title}>{title}</Text>
-        <Text style={styles.description}>{description}</Text>
-      </View>
+      <TouchableOpacity onPress={handlePress}>
+        <Image source={imageSource} style={styles.image} />
+        <View style={styles.cardContent}>
+          <Text style={styles.title}>{title}</Text>
+          <Text style={styles.description}>{description}</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -32,7 +37,7 @@ const styles = StyleSheet.create({
     height: 150,
     borderTopLeftRadius: 8,
     borderTopRightRadius: 8,
-    resizeMode: 'contain', 
+    resizeMode: 'contain',
   },
   cardContent: {
     padding: 10,

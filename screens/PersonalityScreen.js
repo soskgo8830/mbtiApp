@@ -129,18 +129,31 @@ function PersonalityScreen({ navigation }) {
     setSearch(text);
   };
 
+  const onPressCallback = (selectId) => {
+    console.log(selectId);
+    const selectMbti = mbtiPersonal.filter((item)=>item.key === selectId)
+    console.log(selectMbti)
+  };
+
   const renderItem = ({ item }) => (
     <ImageCard
+      id={item.key}
       title={item.name}
       description={item.description}
       imageSource={item.imgSrc}
+      onPressCallback={onPressCallback}
     ></ImageCard>
   );
 
   return (
     <View>
       <View style={styles.searchContainer}>
-        <Icon name='search' size={24} color='#618264'  style={styles.searchIcon}/>
+        <Icon
+          name='search'
+          size={24}
+          color='#618264'
+          style={styles.searchIcon}
+        />
         <TextInput
           style={styles.searchInput}
           placeholder='Search...'
@@ -148,7 +161,6 @@ function PersonalityScreen({ navigation }) {
           onSubmitEditing={handleSearch}
           value={search}
           maxLength={4}
-          selectionColor={'#618264'}
         />
       </View>
       {loading ? (
@@ -188,7 +200,7 @@ const styles = StyleSheet.create({
   searchIcon: {
     width: 24,
     height: 24,
-    tintColor: '#618264',
+    color: '#618264',
     marginLeft: 8,
   },
 });

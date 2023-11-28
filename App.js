@@ -4,7 +4,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import CharacteristicScreen from './screens/CharacteristicScreen';
 import CompatibilityScreen from './screens/CompatibilityScreen';
-import JobScreen from './screens/JobScreen';
 import JusticeScreen from './screens/JusticeScreen';
 import PersonalityScreen from './screens/PersonalityScreen';
 
@@ -65,21 +64,7 @@ function App() {
           name='Personality'
           component={PersonalityScreen}
           options={{
-            title: 'MBTI 성격 유형',
-            headerTintColor: 'white',
-            headerStyle: {
-              backgroundColor: '#618264',
-            },
-            headerTitleStyle: {
-              color: 'white',
-            },
-          }}
-        />
-        <Stack.Screen
-          name='Job'
-          component={JobScreen}
-          options={{
-            title: 'MBTI 직업 추천',
+            title: 'MBTI별 특징',
             headerTintColor: 'white',
             headerStyle: {
               backgroundColor: '#618264',
