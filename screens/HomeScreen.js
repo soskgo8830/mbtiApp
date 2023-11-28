@@ -52,7 +52,7 @@ function HomeScreen({ navigation }) {
               }}
             />
             <Button
-              title='MBTI별 특징'
+              title='MBTI 특징'
               onPress={() => navigation.navigate('Personality')}
               titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
               buttonStyle={{

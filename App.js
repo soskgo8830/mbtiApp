@@ -64,7 +64,7 @@ function App() {
           name='Personality'
           component={PersonalityScreen}
           options={{
-            title: 'MBTI별 특징',
+            title: 'MBTI 특징',
             headerTintColor: 'white',
             headerStyle: {
               backgroundColor: '#618264',

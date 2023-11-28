@@ -4,10 +4,11 @@ import {
   StyleSheet,
   TextInput,
   FlatList,
-  ActivityIndicator,
+  ActivityIndicator
 } from 'react-native';
 import ImageCard from '../components/ImageCard';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import Characteristic from '../components/Characteristic';
 
 function PersonalityScreen({ navigation }) {
   const mbtiPersonal = [
@@ -111,6 +112,8 @@ function PersonalityScreen({ navigation }) {
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState(mbtiPersonal);
   const [loading, setLoading] = useState(false);
+  const [isSelect, setIsSelect] = useState(false);
+  const [selectMbti,setSelectMbti] = useState([])
 
   useEffect(() => {
     setLoading(true); // 검색 시작 시 로딩 상태를 true로 설정
@@ -130,9 +133,9 @@ function PersonalityScreen({ navigation }) {
   };
 
   const onPressCallback = (selectId) => {
-    console.log(selectId);
-    const selectMbti = mbtiPersonal.filter((item)=>item.key === selectId)
-    console.log(selectMbti)
+    const filterSelectMbti = mbtiPersonal.filter((item) => item.key === selectId);
+    setSelectMbti(filterSelectMbti)
+    setIsSelect(true)
   };
 
   const renderItem = ({ item }) => (
@@ -147,32 +150,40 @@ function PersonalityScreen({ navigation }) {
 
   return (
     <View>
-      <View style={styles.searchContainer}>
-        <Icon
-          name='search'
-          size={24}
-          color='#618264'
-          style={styles.searchIcon}
-        />
-        <TextInput
-          style={styles.searchInput}
-          placeholder='Search...'
-          onChangeText={(text) => handleSearch(text)}
-          onSubmitEditing={handleSearch}
-          value={search}
-          maxLength={4}
-        />
-      </View>
-      {loading ? (
+      {isSelect ? (
         <View>
-          <ActivityIndicator size='large' color='#618264' />
+          <Characteristic item={selectMbti}></Characteristic>
         </View>
       ) : (
-        <FlatList
-          data={searchResults}
-          keyExtractor={(item) => item.key}
-          renderItem={renderItem}
-        />
+        <View>
+          <View style={styles.searchContainer}>
+            <Icon
+              name='search'
+              size={24}
+              color='#618264'
+              style={styles.searchIcon}
+            />
+            <TextInput
+              style={styles.searchInput}
+              placeholder='Search...'
+              onChangeText={(text) => handleSearch(text)}
+              onSubmitEditing={handleSearch}
+              value={search}
+              maxLength={4}
+            />
+          </View>
+          {loading ? (
+            <View>
+              <ActivityIndicator size='large' color='#618264' />
+            </View>
+          ) : (
+            <FlatList
+              data={searchResults}
+              keyExtractor={(item) => item.key}
+              renderItem={renderItem}
+            />
+          )}
+        </View>
       )}
     </View>
   );
