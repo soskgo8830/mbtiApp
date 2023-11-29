@@ -4,116 +4,115 @@ import {
   StyleSheet,
   TextInput,
   FlatList,
-  ActivityIndicator
+  ActivityIndicator,
 } from 'react-native';
 import ImageCard from '../components/ImageCard';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import Characteristic from '../components/Characteristic';
 
 function PersonalityScreen({ navigation }) {
+  const imgMap = {
+    ENFJ: require(`../assets/img/enfj.png`),
+    ENFP: require(`../assets/img/enfp.png`),
+    ENTJ: require(`../assets/img/entj.png`),
+    ENTP: require(`../assets/img/entp.png`),
+    ESFJ: require(`../assets/img/esfj.png`),
+    ESFP: require(`../assets/img/esfp.png`),
+    ESTJ: require(`../assets/img/estj.png`),
+    ESTP: require(`../assets/img/estp.png`),
+    INFJ: require(`../assets/img/infj.png`),
+    INFP: require(`../assets/img/infp.png`),
+    INTJ: require(`../assets/img/intj.png`),
+    INTP: require(`../assets/img/intp.png`),
+    ISFJ: require(`../assets/img/isfj.png`),
+    ISFP: require(`../assets/img/isfp.png`),
+    ISTJ: require(`../assets/img/istj.png`),
+    ISTP: require(`../assets/img/istp.png`)
+  };
   const mbtiPersonal = [
     {
       key: 1,
       name: 'INFP',
-      description: '잔다르크형',
-      imgSrc: require('../assets/img/infp.png'),
+      description: '잔다르크형'
     },
     {
       key: 2,
       name: 'ENFP',
-      description: '스파크형',
-      imgSrc: require('../assets/img/enfp.png'),
+      description: '스파크형'
     },
     {
       key: 3,
       name: 'INFJ',
-      description: '예언자형',
-      imgSrc: require('../assets/img/infj.png'),
+      description: '예언자형'
     },
     {
       key: 4,
       name: 'ENFJ',
-      description: '언변능숙형',
-      imgSrc: require('../assets/img/enfj.png'),
+      description: '언변능숙형'
     },
     {
       key: 5,
       name: 'INTJ',
-      description: '과학자형',
-      imgSrc: require('../assets/img/intj.png'),
+      description: '과학자형'
     },
     {
       key: 6,
       name: 'ENTJ',
-      description: '지도자형',
-      imgSrc: require('../assets/img/entj.png'),
+      description: '지도자형'
     },
     {
       key: 7,
       name: 'INTP',
-      description: '아이디어 뱅크형',
-      imgSrc: require('../assets/img/intp.png'),
+      description: '아이디어 뱅크형'
     },
     {
       key: 8,
       name: 'ENTP',
-      description: '발명가형',
-      imgSrc: require('../assets/img/entp.png'),
+      description: '발명가형'
     },
     {
       key: 9,
       name: 'ISFP',
-      description: '성인군자형',
-      imgSrc: require('../assets/img/isfp.png'),
+      description: '성인군자형'
     },
     {
       key: 10,
       name: 'ESFP',
-      description: '사교적인유형',
-      imgSrc: require('../assets/img/esfp.png'),
+      description: '사교적인유형'
     },
     {
       key: 11,
       name: 'ISTP',
-      description: '백과사전형',
-      imgSrc: require('../assets/img/istp.png'),
+      description: '백과사전형'
     },
     {
       key: 12,
       name: 'ESTP',
-      description: '수완좋은 활동가형',
-      imgSrc: require('../assets/img/estp.png'),
+      description: '수완좋은 활동가형'
     },
     {
       key: 13,
       name: 'ISFJ',
-      description: '임금 뒷편의 권력형',
-      imgSrc: require('../assets/img/isfj.png'),
+      description: '임금 뒷편의 권력형'
     },
     {
       key: 14,
       name: 'ESFJ',
-      description: '친선도모형',
-      imgSrc: require('../assets/img/esfj.png'),
+      description: '친선도모형'
     },
     {
       key: 15,
       name: 'ISTJ',
-      description: '세상의 소금형',
-      imgSrc: require('../assets/img/istj.png'),
+      description: '세상의 소금형'
     },
     {
       key: 16,
       name: 'ESTJ',
-      description: '사업가형',
-      imgSrc: require('../assets/img/estj.png'),
+      description: '사업가형'
     },
   ];
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState(mbtiPersonal);
   const [loading, setLoading] = useState(false);
-  const [isSelect, setIsSelect] = useState(false);
-  const [selectMbti,setSelectMbti] = useState([])
 
   useEffect(() => {
     setLoading(true); // 검색 시작 시 로딩 상태를 true로 설정
@@ -133,9 +132,10 @@ function PersonalityScreen({ navigation }) {
   };
 
   const onPressCallback = (selectId) => {
-    const filterSelectMbti = mbtiPersonal.filter((item) => item.key === selectId);
-    setSelectMbti(filterSelectMbti)
-    setIsSelect(true)
+    const filterSelectMbti = mbtiPersonal.filter(
+      (item) => item.key === selectId
+    );
+    navigation.navigate('PersonalityDtail', { item: filterSelectMbti });
   };
 
   const renderItem = ({ item }) => (
@@ -143,47 +143,39 @@ function PersonalityScreen({ navigation }) {
       id={item.key}
       title={item.name}
       description={item.description}
-      imageSource={item.imgSrc}
+      imgSrc={imgMap[item.name]}
       onPressCallback={onPressCallback}
     ></ImageCard>
   );
 
   return (
     <View>
-      {isSelect ? (
+      <View style={styles.searchContainer}>
+        <Icon
+          name='search'
+          size={24}
+          color='#618264'
+          style={styles.searchIcon}
+        />
+        <TextInput
+          style={styles.searchInput}
+          placeholder='Search...'
+          onChangeText={(text) => handleSearch(text)}
+          onSubmitEditing={handleSearch}
+          value={search}
+          maxLength={4}
+        />
+      </View>
+      {loading ? (
         <View>
-          <Characteristic item={selectMbti}></Characteristic>
+          <ActivityIndicator size='large' color='#618264' />
         </View>
       ) : (
-        <View>
-          <View style={styles.searchContainer}>
-            <Icon
-              name='search'
-              size={24}
-              color='#618264'
-              style={styles.searchIcon}
-            />
-            <TextInput
-              style={styles.searchInput}
-              placeholder='Search...'
-              onChangeText={(text) => handleSearch(text)}
-              onSubmitEditing={handleSearch}
-              value={search}
-              maxLength={4}
-            />
-          </View>
-          {loading ? (
-            <View>
-              <ActivityIndicator size='large' color='#618264' />
-            </View>
-          ) : (
-            <FlatList
-              data={searchResults}
-              keyExtractor={(item) => item.key}
-              renderItem={renderItem}
-            />
-          )}
-        </View>
+        <FlatList
+          data={searchResults}
+          keyExtractor={(item) => item.key}
+          renderItem={renderItem}
+        />
       )}
     </View>
   );

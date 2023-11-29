@@ -6,6 +6,7 @@ import CharacteristicScreen from './screens/CharacteristicScreen';
 import CompatibilityScreen from './screens/CompatibilityScreen';
 import JusticeScreen from './screens/JusticeScreen';
 import PersonalityScreen from './screens/PersonalityScreen';
+import PersonalityDtailScreen from './screens/PersonalityScreenDetail';
 
 const Stack = createStackNavigator();
 
@@ -65,6 +66,20 @@ function App() {
           component={PersonalityScreen}
           options={{
             title: 'MBTI 특징',
+            headerTintColor: 'white',
+            headerStyle: {
+              backgroundColor: '#618264',
+            },
+            headerTitleStyle: {
+              color: 'white',
+            },
+          }}
+        />
+        <Stack.Screen
+          name='PersonalityDtail'
+          component={PersonalityDtailScreen}
+          options={{
+            title: 'MBTI 특징 상세',
             headerTintColor: 'white',
             headerStyle: {
               backgroundColor: '#618264',

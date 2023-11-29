@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const ImageCard = ({id, title, description, imageSource, onPressCallback }) => {
+const ImageCard = ({id, title, description, imgSrc, onPressCallback }) => {
   const handlePress = () => {
     onPressCallback(id);
   };
   return (
     <View style={styles.card}>
       <TouchableOpacity onPress={handlePress}>
-        <Image source={imageSource} style={styles.image} />
+        <Image source={imgSrc} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.title}>{title}</Text>
           <Text style={styles.description}>{description}</Text>
