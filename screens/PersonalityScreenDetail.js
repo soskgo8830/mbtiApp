@@ -34,7 +34,9 @@ function PersonalityDtailScreen({ navigation, route }) {
         <Image source={imgSrc} style={styles.imgContent} />
       </View>
       <View style={styles.section3}>
-        <Text style={styles.rr}>내용</Text>
+        {detailMbti.explanationArray.map((explanation, index) => (
+        <Text style={styles.explanation} key={index}>{explanation}</Text>
+      ))}
       </View>
     </View>
   );
@@ -47,22 +49,22 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   section1: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  section2: {
     flex: 2,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  section3: {
+  section2: {
     flex: 3,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  section3: {
+    flex: 2,
     backgroundColor: '#618264',
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
-    paddingTop: 40,
-    alignItems: 'center',
+    justifyContent: 'center',
+    padding:20
   },
   imgContent: {
     width: '100%',
@@ -78,8 +80,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#666',
   },
-  rr: {
+  explanation: {
     color: '#fff',
+    padding:5
   },
 });
 

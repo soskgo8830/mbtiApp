@@ -9,6 +9,8 @@ import {
 import ImageCard from '../components/ImageCard';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
+const mbtiPersonal = require('../json/mbtiPersonal.json'); // json파일 호출
+
 function PersonalityScreen({ navigation }) {
   const imgMap = {
     ENFJ: require(`../assets/img/enfj.png`),
@@ -26,90 +28,9 @@ function PersonalityScreen({ navigation }) {
     ISFJ: require(`../assets/img/isfj.png`),
     ISFP: require(`../assets/img/isfp.png`),
     ISTJ: require(`../assets/img/istj.png`),
-    ISTP: require(`../assets/img/istp.png`)
+    ISTP: require(`../assets/img/istp.png`),
   };
-  const mbtiPersonal = [
-    {
-      key: 1,
-      name: 'INFP',
-      description: '잔다르크형'
-    },
-    {
-      key: 2,
-      name: 'ENFP',
-      description: '스파크형'
-    },
-    {
-      key: 3,
-      name: 'INFJ',
-      description: '예언자형'
-    },
-    {
-      key: 4,
-      name: 'ENFJ',
-      description: '언변능숙형'
-    },
-    {
-      key: 5,
-      name: 'INTJ',
-      description: '과학자형'
-    },
-    {
-      key: 6,
-      name: 'ENTJ',
-      description: '지도자형'
-    },
-    {
-      key: 7,
-      name: 'INTP',
-      description: '아이디어 뱅크형'
-    },
-    {
-      key: 8,
-      name: 'ENTP',
-      description: '발명가형'
-    },
-    {
-      key: 9,
-      name: 'ISFP',
-      description: '성인군자형'
-    },
-    {
-      key: 10,
-      name: 'ESFP',
-      description: '사교적인유형'
-    },
-    {
-      key: 11,
-      name: 'ISTP',
-      description: '백과사전형'
-    },
-    {
-      key: 12,
-      name: 'ESTP',
-      description: '수완좋은 활동가형'
-    },
-    {
-      key: 13,
-      name: 'ISFJ',
-      description: '임금 뒷편의 권력형'
-    },
-    {
-      key: 14,
-      name: 'ESFJ',
-      description: '친선도모형'
-    },
-    {
-      key: 15,
-      name: 'ISTJ',
-      description: '세상의 소금형'
-    },
-    {
-      key: 16,
-      name: 'ESTJ',
-      description: '사업가형'
-    },
-  ];
+
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState(mbtiPersonal);
   const [loading, setLoading] = useState(false);
