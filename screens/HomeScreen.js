@@ -1,72 +1,75 @@
 import React from 'react';
-import { StyleSheet, View, ScrollView, Image } from 'react-native';
-import { Text, Button } from '@rneui/themed';
+import {
+  StyleSheet,
+  View,
+  ScrollView,
+  Image,
+  TouchableWithoutFeedback,
+} from 'react-native';
+import { Text } from '@rneui/themed';
 
-import mainImg from '../assets/img/main_img.png';
+import mainImage4 from '../assets/img/mainImage4.jpg';
+import mainImage1 from '../assets/img/mainImage1.png';
+import mainImage2 from '../assets/img/mainImage2.png';
+import mainImage3 from '../assets/img/mainImage3.png';
 
 function HomeScreen({ navigation }) {
+  const handlePress = (goScreenName) => {
+    navigation.navigate(goScreenName);
+  };
+
+  const cardData = [
+    {
+      title: 'MBTI란?',
+      description: '자세한 내용을 확인할 수 있습니다.',
+      image: mainImage1,
+      screenName: 'Justice',
+    },
+    {
+      title: 'MBTI 각 지표별 특징',
+      description: '각 지표별 특징을 확인할 수 있습니다.',
+      image: mainImage2,
+      screenName: 'Characteristic',
+    },
+    {
+      title: 'MBTI 궁합',
+      description: '궁합을 확인할 수 있습니다.',
+      image: mainImage3,
+      screenName: 'Compatibility',
+    },
+    {
+      title: 'MBTI 특징',
+      description: '특징을 확인할 수 있습니다.',
+      image: mainImage4,
+      screenName: 'Personality',
+    },
+  ];
+
   return (
-    <View>
-      <ScrollView>
-        <View style={styles.margin30}>
-          <Text style={styles.mainTitleStyle}>MBTI World</Text>
-          <Image source={mainImg} style={styles.mainImageStyle} />
-          <View style={styles.marginTop20}>
-            <Button
-              title='MBTI란?'
-              onPress={() => navigation.navigate('Justice')}
-              titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
-              buttonStyle={{
-                backgroundColor: '#618264',
-                borderRadius: 5,
-              }}
-              containerStyle={{
-                height: 50,
-                marginVertical: 5,
-              }}
-            />
-            <Button
-              title='MBTI 각 지표별 특징'
-              onPress={() => navigation.navigate('Characteristic')}
-              titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
-              buttonStyle={{
-                backgroundColor: '#618264',
-                borderRadius: 5,
-              }}
-              containerStyle={{
-                height: 50,
-                marginVertical: 5,
-              }}
-            />
-            <Button
-              title='MBTI 궁합'
-              onPress={() => navigation.navigate('Compatibility')}
-              titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
-              buttonStyle={{
-                backgroundColor: '#618264',
-                borderRadius: 5,
-              }}
-              containerStyle={{
-                height: 50,
-                marginVertical: 5,
-              }}
-            />
-            <Button
-              title='MBTI 특징'
-              onPress={() => navigation.navigate('Personality')}
-              titleStyle={{ fontWeight: 'bold', fontSize: 18 }}
-              buttonStyle={{
-                backgroundColor: '#618264',
-                borderRadius: 5,
-              }}
-              containerStyle={{
-                height: 50,
-                marginVertical: 5,
-              }}
-            />
-          </View>
-        </View>
-      </ScrollView>
+    <View style={styles.container}>
+      <View style={styles.section1}>{/* Your section 1 content */}</View>
+      <View style={styles.section2}>
+        <ScrollView horizontal contentContainerStyle={styles.scrollContainer}>
+          {cardData.map((card, index) => (
+            <TouchableWithoutFeedback
+              key={index}
+              onPress={() => handlePress(card.screenName)}
+            >
+              <View style={styles.mainCardSection}>
+                <View style={[styles.card, styles.cardBottom]}>
+                  <Image source={card.image} style={styles.imageStyle} />
+                </View>
+                <View style={[styles.card, styles.cardTop]}>
+                  <View style={styles.mainCardTextSection}>
+                    <Text style={styles.mainText}>{card.title}</Text>
+                    <Text style={styles.subText}>{card.description}</Text>
+                  </View>
+                </View>
+              </View>
+            </TouchableWithoutFeedback>
+          ))}
+        </ScrollView>
+      </View>
     </View>
   );
 }
@@ -74,24 +77,67 @@ function HomeScreen({ navigation }) {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-  margin30: {
-    margin: 30,
+  container: {
+    flex: 2,
+    backgroundColor: '#A9B388',
   },
-  marginTop20: {
-    marginTop: 20,
-  },
-  mainTitleStyle: {
-    fontSize: 25,
-    fontWeight: 'bold',
+  section1: {
+    flex: 2,
+    justifyContent: 'center',
     padding: 30,
-    textAlign: 'center',
-    color: '#618264',
+    marginTop: 80,
   },
-  mainImageStyle: {
-    height: 300,
-    width: 'auto',
+  section2: {
+    flex: 2,
+  },
+  scrollContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+    paddingVertical: 20,
+  },
+  mainCardSection: {
+    width: 250,
+    marginRight: 20,
+  },
+  card: {
+    width: '80%',
+    height: 180,
     borderRadius: 10,
-    borderWidth: 2,
-    borderColor: '#618264',
+    overflow: 'hidden',
+    elevation: 5,
+    position: 'relative',
+  },
+  cardTop: {
+    backgroundColor: '#FEFAE0',
+    bottom: 50,
+    zIndex: 1,
+    width: '100%',
+    height: 200,
+  },
+  cardBottom: {
+    zIndex: 2,
+    top: 40,
+  },
+  imageStyle: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 8,
+  },
+  mainText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  subText: {
+    fontSize: 14,
+    color: '#666',
+  },
+  mainCardTextSection: {
+    position: 'absolute',
+    bottom: 0,
+    paddingLeft: 40,
+    paddingRight: 40,
+    paddingBottom: 30,
   },
 });

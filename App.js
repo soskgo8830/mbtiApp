@@ -26,7 +26,7 @@ function App() {
             title: 'MBTI란?',
             headerTintColor: 'white',
             headerStyle: {
-              backgroundColor: '#618264',
+              backgroundColor: '#A9B388',
             },
             headerTitleStyle: {
               color: 'white',
@@ -40,7 +40,7 @@ function App() {
             title: 'MBTI 각 지표별 특징',
             headerTintColor: 'white',
             headerStyle: {
-              backgroundColor: '#618264',
+              backgroundColor: '#A9B388',
             },
             headerTitleStyle: {
               color: 'white',
@@ -54,7 +54,7 @@ function App() {
             title: 'MBTI 궁합',
             headerTintColor: 'white',
             headerStyle: {
-              backgroundColor: '#618264',
+              backgroundColor: '#A9B388',
             },
             headerTitleStyle: {
               color: 'white',
@@ -68,7 +68,7 @@ function App() {
             title: 'MBTI 특징',
             headerTintColor: 'white',
             headerStyle: {
-              backgroundColor: '#618264',
+              backgroundColor: '#A9B388',
             },
             headerTitleStyle: {
               color: 'white',
@@ -82,7 +82,7 @@ function App() {
             title: 'MBTI 특징 상세',
             headerTintColor: 'white',
             headerStyle: {
-              backgroundColor: '#618264',
+              backgroundColor: '#A9B388',
             },
             headerTitleStyle: {
               color: 'white',

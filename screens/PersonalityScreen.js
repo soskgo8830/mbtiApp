@@ -70,7 +70,7 @@ function PersonalityScreen({ navigation }) {
   );
 
   return (
-    <View>
+    <View style={styles.container}>
       <View style={styles.searchContainer}>
         <Icon
           name='search'
@@ -103,14 +103,16 @@ function PersonalityScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#A9B388',
+    height:'100%'
+  },
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 8,
     height: 40,
     backgroundColor: 'white',
-    borderColor: '#618264',
-    borderWidth: 2,
     margin: 10,
     borderRadius: 10,
     padding: 10,
@@ -124,7 +126,7 @@ const styles = StyleSheet.create({
   searchIcon: {
     width: 24,
     height: 24,
-    color: '#618264',
+    color: '#A9B388',
     marginLeft: 8,
   },
 });

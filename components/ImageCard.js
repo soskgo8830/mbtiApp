@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.2,
     shadowRadius: 3,
-    elevation: 3,
+    elevation: 5,
     margin: 10,
   },
   image: {
@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
   },
   cardContent: {
     padding: 10,
+    alignItems: 'center',
   },
   title: {
     fontSize: 18,

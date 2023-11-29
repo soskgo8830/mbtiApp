@@ -35,8 +35,10 @@ function PersonalityDtailScreen({ navigation, route }) {
       </View>
       <View style={styles.section3}>
         {detailMbti.explanationArray.map((explanation, index) => (
-        <Text style={styles.explanation} key={index}>{explanation}</Text>
-      ))}
+          <Text style={styles.explanation} key={index}>
+            {explanation}
+          </Text>
+        ))}
       </View>
     </View>
   );
@@ -60,11 +62,11 @@ const styles = StyleSheet.create({
   },
   section3: {
     flex: 2,
-    backgroundColor: '#618264',
+    backgroundColor: '#A9B388',
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     justifyContent: 'center',
-    padding:20
+    padding: 20,
   },
   imgContent: {
     width: '100%',
@@ -82,7 +84,7 @@ const styles = StyleSheet.create({
   },
   explanation: {
     color: '#fff',
-    padding:5
+    padding: 5,
   },
 });
 
