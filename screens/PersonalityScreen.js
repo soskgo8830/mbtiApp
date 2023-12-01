@@ -60,13 +60,15 @@ function PersonalityScreen({ navigation }) {
   };
 
   const renderItem = ({ item }) => (
-    <ImageCard
-      id={item.key}
-      title={item.name}
-      description={item.description}
-      imgSrc={imgMap[item.name]}
-      onPressCallback={onPressCallback}
-    ></ImageCard>
+    <View style={styles.imageCardSction}>
+      <ImageCard
+        id={item.key}
+        title={item.name}
+        description={item.description}
+        imgSrc={imgMap[item.name]}
+        onPressCallback={onPressCallback}
+      ></ImageCard>
+    </View>
   );
 
   return (
@@ -96,6 +98,7 @@ function PersonalityScreen({ navigation }) {
           data={searchResults}
           keyExtractor={(item) => item.key}
           renderItem={renderItem}
+          style={styles.mbtiCardContainer}
         />
       )}
     </View>
@@ -113,7 +116,9 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     height: 40,
     backgroundColor: 'white',
-    margin: 10,
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 10,
     borderRadius: 10,
     padding: 10,
   },
@@ -129,6 +134,14 @@ const styles = StyleSheet.create({
     color: '#A9B388',
     marginLeft: 8,
   },
+  imageCardSction:{
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 10,
+  },
+  mbtiCardContainer :{
+    marginTop:10
+  }
 });
 
 export default PersonalityScreen;

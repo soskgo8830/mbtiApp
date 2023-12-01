@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Alert } from 'react-native';
 import SelectDropdown from 'react-native-select-dropdown';
 import { Button } from '@rneui/themed';
-import CompatibilityResult from '../components/CompatibilityResult';
 
 const mbtiJsonData = require('../json/mbti.json'); // json파일 호출
 
@@ -50,6 +49,7 @@ export default function CompatibilityScreen() {
 
   const onChheckResult = () => {
     if (mbti1 === 0 || mbti2 === 0) {
+      Alert.alert('!', '궁합을 확인할 MBTI를 선택해주세요.', [{ text: '닫기' }]);
       console.log('선택안함 선택하셈');
     } else {
       const relationsValue = findRelationsValue(mbti1, mbti2);
@@ -97,15 +97,12 @@ export default function CompatibilityScreen() {
           <Button
             onPress={onChheckResult}
             title='궁합보기'
-            containerStyle={{
-              height: 40,
-              marginHorizontal: 100,
-              marginVertical: 10,
-            }}
+            color='#B99470'
+            containerStyle={styles.resultButtonStyle}
           />
         </View>
       ) : (
-        <CompatibilityResult />
+        <View></View>
       )}
     </View>
   );
@@ -114,17 +111,23 @@ export default function CompatibilityScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#A9B388',
     alignItems: 'center',
     justifyContent: 'center',
   },
 
   dropdownButton: {
-    backgroundColor: '#9DC08B',
+    backgroundColor: '#FEFAE0',
     borderRadius: 5,
     width: '90%',
     margin: 10,
-    borderWidth: 1,
-    borderColor: '#609966',
+    elevation: 5,
+  },
+
+  resultButtonStyle: {
+    height: 40,
+    marginHorizontal: 100,
+    marginVertical: 10,
+    elevation: 6,
   },
 });
