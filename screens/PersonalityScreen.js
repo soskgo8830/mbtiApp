@@ -108,7 +108,7 @@ function PersonalityScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#A9B388',
-    height:'100%'
+    flex: 1,
   },
   searchContainer: {
     flexDirection: 'row',

@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import CharacteristicScreen from './screens/CharacteristicScreen';
 import CompatibilityScreen from './screens/CompatibilityScreen';
+import CompatibilityDetailScreen from './screens/CompatibilityDetailScreen';
 import JusticeScreen from './screens/JusticeScreen';
 import PersonalityScreen from './screens/PersonalityScreen';
 import PersonalityDtailScreen from './screens/PersonalityScreenDetail';
@@ -52,6 +53,20 @@ function App() {
           component={CompatibilityScreen}
           options={{
             title: 'MBTI 궁합',
+            headerTintColor: 'white',
+            headerStyle: {
+              backgroundColor: '#A9B388',
+            },
+            headerTitleStyle: {
+              color: 'white',
+            },
+          }}
+        />
+        <Stack.Screen
+          name='CompatibilityDtail'
+          component={CompatibilityDetailScreen}
+          options={{
+            title: 'MBTI 궁합 상세',
             headerTintColor: 'white',
             headerStyle: {
               backgroundColor: '#A9B388',
