@@ -5,6 +5,25 @@ import Icon from 'react-native-vector-icons/AntDesign';
 function CompatibilityDetailScreen({ navigation, route }) {
   const { relationsValue, meMbtiNm, compareMbtiNm } = route.params.item;
   console.log(relationsValue, meMbtiNm, compareMbtiNm);
+
+  const filledHearts = Array.from({ length: relationsValue }).fill('heart');
+  const emptyHearts = Array.from({ length: 5 - relationsValue }).fill('hearto');
+
+  const renderHearts = () => {
+    const hearts = filledHearts
+      .concat(emptyHearts)
+      .map((type, index) => (
+        <Icon
+          key={index}
+          name={type}
+          size={45}
+          color='#B31312'
+          style={styles.heartStyle}
+        />
+      ));
+    return hearts;
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -12,38 +31,7 @@ function CompatibilityDetailScreen({ navigation, route }) {
           나({meMbtiNm})와 {compareMbtiNm} 궁합
         </Text>
       </View>
-      <View style={styles.relationsHeartContainer}>
-        <Icon
-          name='heart'
-          size={45}
-          color='#B31312'
-          style={styles.heartStyle}
-        />
-        <Icon
-          name='heart'
-          size={45}
-          color='#B31312'
-          style={styles.heartStyle}
-        />
-        <Icon
-          name='hearto'
-          size={45}
-          color='#B31312'
-          style={styles.heartStyle}
-        />
-        <Icon
-          name='hearto'
-          size={45}
-          color='#B31312'
-          style={styles.heartStyle}
-        />
-        <Icon
-          name='hearto'
-          size={45}
-          color='#B31312'
-          style={styles.heartStyle}
-        />
-      </View>
+      <View style={styles.relationsHeartContainer}>{renderHearts()}</View>
     </View>
   );
 }
